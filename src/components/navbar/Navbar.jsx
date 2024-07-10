@@ -21,7 +21,7 @@ export default function Navbar() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: '360px'}}
+      sx={{ width: '360px' }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
@@ -70,9 +70,11 @@ export default function Navbar() {
           {list('right')}
         </Drawer>
         <Link to='/' className='flex-1 h-20 items-center flex'>
-          <img src={logo} alt="logo" />
+          <img width={260} src={logo} alt="logo" />
         </Link>
-        <List className='flex gap-7'>
+        <List sx={{
+          display: { lg: 'flex', md: 'flex', sm: 'none', xs: 'none' }
+        }} className='flex gap-7 '>
           {[
             ['PORTFOLIO', '#'],
             ['BLOG', '#'],
@@ -87,7 +89,9 @@ export default function Navbar() {
             </ListItem>
           ))}
         </List>
-        <Button className='block lg:hidden md:hidden' onClick={toggleDrawer('right', true)}><MenuIcon /></Button>
+        <Button sx={{
+          display: { lg: 'none', md: 'none', sm: 'inline-block', xs: 'inline-block' }
+        }} onClick={toggleDrawer('right', true)}><MenuIcon /></Button>
       </nav>
     </Container>
   );
