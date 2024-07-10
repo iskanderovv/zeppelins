@@ -14,16 +14,14 @@ export default function Navbar() {
   const [state, setState] = useState({
     right: false,
   });
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language.substring(0, 2).toUpperCase());
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-
     setState({ ...state, [anchor]: open });
   };
-  
-
 
   const handleSelect = (countryCode) => {
     switch (countryCode) {
@@ -44,13 +42,14 @@ export default function Navbar() {
     }
   };
 
-  const currentLanguage = i18n.language.substring(0, 2).toUpperCase();
+  React.useEffect(() => {
+    setCurrentLanguage(i18n.language.substring(0, 2).toUpperCase());
+  }, [i18n.language]);
 
   const list = (anchor) => (
     <Box
       sx={{ width: '360px' }}
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <Box sx={{
@@ -65,7 +64,6 @@ export default function Navbar() {
         <IconButton onClick={toggleDrawer(anchor, false)}>
           <CloseIcon />
         </IconButton>
-
       </Box>
       <ReactFlagsSelect
         countries={['UZ', 'RU', 'US', 'FR']}
@@ -94,7 +92,6 @@ export default function Navbar() {
       </List>
     </Box>
   );
-
 
   return (
     <Container>
