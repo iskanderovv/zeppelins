@@ -16,7 +16,7 @@ const Home = () => {
         <div className="max-w-[631px]">
           <h1 className="font-bold text-[#D05270] lg:text-[52px] md:text-[40px] sm:text-[30px] text-[25px]">{t("heroTitle")}</h1>
           <h2 className="font-medium lg:text-[52px] md:text-[40px] sm:text-[30px] text-[25px]">{t("heroSubtitle")}</h2>
-          <p className="lg:text-[18px] md:text-[16px] sm:text-xs lg:py-6 md:py-9 sm:py-9 py-8">{t("heroInfo")}</p>
+          <p className="lg:text-[18px] md:text-[16px] sm:text-xs lg:py-6 md:py-9 sm:py-9 py-8 lg:leading-[21px] md:leading-[19px] sm:leading-[16px] leading-[14px]">{t("heroInfo")}</p>
           <div className="flex gap-[18px]">
             {[
               { icon: <AiOutlineTwitter className="text-xl" />, label: "Twitter", bgColor: "bg-[#47ACDF]", },

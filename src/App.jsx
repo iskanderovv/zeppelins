@@ -10,6 +10,7 @@ import ProductDesign from './routes/product-design/ProductDesign';
 import Articles from './routes/articles/Articles';
 import Tutorials from './routes/tutorials/Tutorials';
 import News from './routes/news/News';
+import SinglePost from './routes/single-post/SinglePost';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
             <Route path='/tabs/news' element={<News />} />
           </Route>
         </Route>
+        <Route path='/single-post/:id' element={<SinglePost />} />
       </Routes>
     </>
   )

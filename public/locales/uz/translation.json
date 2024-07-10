@@ -16,5 +16,8 @@
   "articles": "Maqolalar",
   "tutorials": "O'quv qo'llanmalar",
   "news": "Yangiliklar",
-  "all": "Barchasi"
+  "all": "Barchasi",
+  "singlePostTitle": "BLOG MALUMOTLARI H1",
+  "singlePostInfo1": "Grafik dizayn va veb-ishlab chiqish kabi, UX dizayn tendensiyalari ham sababli keladi va ketadi. UX insoniyat uchun raqamli dunyoni yaxshilash haqida. Bu innovatsiyani talab qiladigan, lekin doimo rivojlanib boradigan soha. UX dizayn bloglarini muntazam ravishda kuzatib borish sizga sanoatdagi o'zgarishlar haqida ma'lumot olishga yordam beradi, shuningdek, UX ko'nikmalaringizni rivojlantiradi.",
+  "singlePostInfo2": "Bundan tashqari, ko'plab UX dizayn bloglari sizni ilova yoki vebning muvaffaqiyatli rivojlan"
 }
