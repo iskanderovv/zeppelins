@@ -33,7 +33,7 @@ export default function Navbar() {
         px: '16px'
       }}>
         <Link to='/' className='flex-1 h-20 items-center flex'>
-          <img width={150} src={logo} alt="logo" />
+          <img width={200} src={logo} alt="logo" />
         </Link>
         <IconButton onClick={toggleDrawer(anchor, false)}>
           <CloseIcon />
@@ -61,7 +61,7 @@ export default function Navbar() {
 
   return (
     <Container>
-      <nav className='flex items-center'>
+      <nav className='flex items-center mt-16'>
         <Drawer
           anchor='right'
           open={state.right}
@@ -74,7 +74,7 @@ export default function Navbar() {
         </Link>
         <List sx={{
           display: { lg: 'flex', md: 'flex', sm: 'none', xs: 'none' }
-        }} className='flex gap-7 '>
+        }} className='flex gap-7'>
           {[
             ['PORTFOLIO', '#'],
             ['BLOG', '#'],
