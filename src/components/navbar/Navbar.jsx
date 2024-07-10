@@ -16,20 +16,10 @@ export default function Navbar() {
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event.type === 'keydown' &&
-      (event.key === 'Tab' || event.key === 'Shift')
-    ) {
+    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-    if (
-      event &&
-      event.target.closest('.MuiDrawer-paper') &&
-      !event.target.closest('.MuiDrawer-paper .react-flags-select')
-    ) {
-      return;
-    }
-  
+
     setState({ ...state, [anchor]: open });
   };
   
@@ -72,7 +62,7 @@ export default function Navbar() {
         <Link to='/' className='flex-1 h-20 items-center flex'>
           <img width={200} src={logo} alt="logo" />
         </Link>
-        <IconButton onClick={toggleDrawer(anchor, false)} aria-label="close">
+        <IconButton onClick={toggleDrawer(anchor, false)}>
           <CloseIcon />
         </IconButton>
 
