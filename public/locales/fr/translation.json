@@ -8,5 +8,13 @@
   "about": "A PROPOS",
   "heroTitle": "Articles de Blog",
   "heroSubtitle": "Je pense que c'est ça.",
-  "heroInfo": "Le design commence après que j'ai commencé à réfléchir à la manière de présenter une expérience de la manière la plus réussie, si un bouton que je mets peut résoudre un problème. Le seul point dans le design n'est pas seulement le design de l'interface utilisateur, si l'utilisateur n'a pas une bonne expérience à la fin du produit, le design sera considéré comme un échec à mon avis."
+  "heroInfo": "Le design commence après que j'ai commencé à réfléchir à la manière de présenter une expérience de la manière la plus réussie, si un bouton que je mets peut résoudre un problème. Le seul point dans le design n'est pas seulement le design de l'interface utilisateur, si l'utilisateur n'a pas une bonne expérience à la fin du produit, le design sera considéré comme un échec à mon avis.",
+  "readMore": "Lire plus",
+  "all": "Tous",
+  "uiDesign": "Design d'interface",
+  "uxDesign": "Design d'expérience utilisateur",
+  "productDesign": "Design de produit",
+  "articles": "Articles",
+  "tutorials": "Tutoriels",
+  "news": "Actualités"
 }

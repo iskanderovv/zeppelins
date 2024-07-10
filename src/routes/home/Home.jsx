@@ -1,10 +1,11 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import hero from '../../images/hero.svg';
 import Container from "../../utils/container/Container";
 import { useTranslation } from "react-i18next";
+import brand from '../../images/brand.svg';
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -24,7 +25,7 @@ const Home = () => {
             ].map((content, index) => (
               <Link
                 key={index}
-                className={`text-xs h-14 w-[200px] flex gap-[35px] justify-center font-medium uppercase text-white items-center ${content.bgColor}`}
+                className={`text-xs lg:h-14 lg:w-[200px] md:h-11 md:w-[170px] sm:h-9 sm:w-[150px] w-[120px] h-7 flex lg:gap-[35px] md:gap-[30px] sm:gap-[25px] gap-4 justify-center font-medium uppercase text-white items-center ${content.bgColor}`}
                 to="#"
               >
                 {content.icon}
@@ -34,6 +35,10 @@ const Home = () => {
           </div>
         </div>
         <img className="md:inline-block hidden" src={hero} alt="hero image" />
+      </div>
+      <Outlet />
+      <div className="mt-[340px] mb-[100px]">
+      <img className="mx-auto" src={brand} alt="brand logo" />
       </div>
     </Container >
   )

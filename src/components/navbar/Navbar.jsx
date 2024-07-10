@@ -34,7 +34,7 @@ export default function Navbar() {
         i18n.changeLanguage('ru');
         break;
       case 'US':
-        i18n.changeLanguage('us');
+        i18n.changeLanguage('en');
         break;
       case 'FR':
         i18n.changeLanguage('fr');
@@ -69,7 +69,7 @@ export default function Navbar() {
       </Box>
       <ReactFlagsSelect
         countries={['UZ', 'RU', 'US', 'FR']}
-        customLabels={{ UZ: 'UZ', RU: 'RU', US: 'US', FR: 'FR' }}
+        customLabels={{ UZ: 'UZ', RU: 'RU', US: 'EN', FR: 'FR' }}
         onSelect={handleSelect}
         selected={currentLanguage}
         placeholder={currentLanguage}
@@ -115,7 +115,7 @@ export default function Navbar() {
         <ReactFlagsSelect
           className='lg:block md:block sm:block hidden mr-4'
           countries={['UZ', 'RU', 'US', 'FR']}
-          customLabels={{ UZ: 'UZ', RU: 'RU', US: 'US', FR: 'FR' }}
+          customLabels={{ UZ: 'UZ', RU: 'RU', US: 'EN', FR: 'FR' }}
           onSelect={handleSelect}
           selected={currentLanguage}
           placeholder={currentLanguage}

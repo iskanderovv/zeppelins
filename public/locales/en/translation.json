@@ -8,5 +8,13 @@
   "about": "ABOUT",
   "heroTitle": "Blog Posts",
   "heroSubtitle": "I think so, this is it.",
-  "heroInfo": "Design begins after I begin to think about how to present an experience most successfully, whether a button I put in can solve a problem. The only point in design is not ui design, if the user does not have a good experience at the end of the product, the design will be considered unsuccessful in my opinion."
+  "heroInfo": "Design begins after I begin to think about how to present an experience most successfully, whether a button I put in can solve a problem. The only point in design is not ui design, if the user does not have a good experience at the end of the product, the design will be considered unsuccessful in my opinion.",
+  "readMore": "Read More",
+  "all": "All",
+  "uiDesign": "UI Design",
+  "uxDesign": "UX Design",
+  "productDesign": "Product Design",
+  "articles": "Articles",
+  "tutorials": "Tutorials",
+  "news": "News"
 }

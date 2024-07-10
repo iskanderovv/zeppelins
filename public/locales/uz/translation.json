@@ -8,5 +8,13 @@
   "about": "MEN HAQIMDA",
   "heroTitle": "Blog Postlar",
   "heroSubtitle": "Menimcha, bu shunday.",
-  "heroInfo": "Dizayn men qanday qilib tajribani eng muvaffaqiyatli tarzda taqdim etishni o'ylashni boshlaganimdan keyin boshlanadi, tugmani joylashtirish muammoni hal qilishi mumkinmi. Dizaynda yagona nuqta faqat UI dizayni emas, agar foydalanuvchi mahsulot oxirida yaxshi tajribaga ega bo'lmasa, mening fikrimcha, dizayn muvaffaqiyatsiz hisoblanadi."
+  "heroInfo": "Dizayn men qanday qilib tajribani eng muvaffaqiyatli tarzda taqdim etishni o'ylashni boshlaganimdan keyin boshlanadi, tugmani joylashtirish muammoni hal qilishi mumkinmi. Dizaynda yagona nuqta faqat UI dizayni emas, agar foydalanuvchi mahsulot oxirida yaxshi tajribaga ega bo'lmasa, mening fikrimcha, dizayn muvaffaqiyatsiz hisoblanadi.",
+  "readMore": "Batafsil",
+  "uiDesign": "UI Dizayn",
+  "uxDesign": "UX Dizayn",
+  "productDesign": "Mahsulot Dizayni",
+  "articles": "Maqolalar",
+  "tutorials": "O'quv qo'llanmalar",
+  "news": "Yangiliklar",
+  "all": "Barchasi"
 }
