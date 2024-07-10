@@ -8,7 +8,7 @@ const Tabs = () => {
   return (
     <Container>
 
-      <nav className='flex overflow-x-scroll my-[124px]'>
+      <nav className='flex flex-wrap gap-6 my-[124px]'>
         {[
           ['/', t('all')],
           ['/tabs/ui-design', t('uiDesign')],
@@ -19,7 +19,7 @@ const Tabs = () => {
           ['/tabs/news', t('news')],
         ].map(([path, label], index) => (
           <NavLink
-            className='text-[#424242] px-6 font-bold text-[18px] text-nowrap'
+            className='text-[#424242] font-bold text-[18px] text-nowrap'
             key={index}
             active
             to={path}
